@@ -34,7 +34,7 @@ from dependencies import (
 from evaluator import extract_variables, evaluate
 
 
-XLSX_DEFAULT = Path(__file__).resolve().parent.parent / "APC dashboard Formulas Rev NC.xlsx"
+XLSX_DEFAULT = "APC dashboard Formulas Rev NC.xlsx"
 
 MAIN_PROCESS_ORDER = [
     "Inbound", "Outbound", "C-Return", "TSI", "TSO", "V-Return",
